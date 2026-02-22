@@ -1,4 +1,4 @@
-# TP de modélisation Géométrique
+# Sculptage de formes via Signed Fistance Function
 ![Bonzai Implicite](./Impl.png)
 Arbre généré avec des unions/différences lissées de Capsules (tige des pommes), Tors
 (Haut du socle) et Sphères en lançant des rayons via mon tp, puis paint et rendu sous
@@ -7,6 +7,10 @@ secondes de rendu pour une résolution de 72 dans une boite de (-1.5, -1.0, -1.5
 2.5, 1.5). Tirer 10 rayons via un Sphere tracing prend environ 10ms avec une bbox, 1ms
 si aucun rayon ne touche. Ce temps est mesuré via l’utilisation d’une Axis Aligned Bounding
 Box généré à la main. Mais peut prendre jusqu’à deux secondes sans Bounding Box.
+
+## Présentation
+
+Ce repo est un projet del'UE de Modélisation Géomtrique dans le cadre du Master ID3D de l'Université Lyon 1, au quel en plus des demandes de bases, j'ai porté le projet sur gKit, ajouté une interface, des fonctions de sculpting supplémentaires et de la sérialization pour pouvoir reprendre du travail commencé plus tôt (Bon... Surtout pour éviter les crash pendant le dev =) ), d'ou la présence d'une partie surface de bézier qui était également demandé
 
 ## Création de formes via SDF
 
